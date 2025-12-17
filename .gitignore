@@ -1,0 +1,38 @@
+# =====================
+# OS files
+# =====================
+.DS_Store
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+.venv/
+venv/
+
+# =====================
+# Python / Flask
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+backend/venv/
+backend/__pycache__/
+
+# =====================
+# Node / React
+# =====================
+node_modules/
+frontend/node_modules/
+
+# React build (ONLY ignore if you regenerate on server)
+# frontend/build/
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/

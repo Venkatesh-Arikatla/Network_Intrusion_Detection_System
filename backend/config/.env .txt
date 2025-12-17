@@ -1,0 +1,14 @@
+# .env
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=nids_user
+DB_PASSWORD=nids_password
+DB_NAME=nids_database
+
+# Optional: Production Database
+PROD_DB_HOST=your_production_host
+PROD_DB_PORT=3306
+PROD_DB_USER=prod_user
+PROD_DB_PASSWORD=your_strong_password
+PROD_DB_NAME=nids_production
